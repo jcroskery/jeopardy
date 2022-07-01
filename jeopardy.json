@@ -1,0 +1,268 @@
+{
+    "name": "Easter Jeopardy",
+    "finalJeopardy": {
+        "category": "Shakespeare",
+        "answer": "The longest play by the Bard, measured in lines",
+        "question": "What is Hamlet?"
+    },
+    "boards": [
+        {
+            "categories": [
+                {
+                    "name": "Nintendo",
+                    "content": [
+                        [
+                            "The best-selling Legend of Zelda game",
+                            "What is The Legend of Zelda: Breath of the Wild?"
+                        ],
+                        [
+                            "The best-selling Nintendo game series of all time",
+                            "What is Mario?"
+                        ],
+                        [
+                            "The first cartridge-based video game console released by Nintendo, also known as the Famicon",
+                            "What is the Nintendo Entertainment System (NES)?"
+                        ],
+                        [
+                            "The best-selling Nintendo Switch game",
+                            "What is Mario Kart 8 Deluxe?"
+                        ],
+                        [
+                            "The first 3-D Super Mario game",
+                            "What is Super Mario 64?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Books of the Bible",
+                    "content": [
+                        [
+                            "The first book of the Pentateuch",
+                            "What is Genesis?"
+                        ],
+                        [
+                            "This Gospel mentions the \"beloved disciple\"",
+                            "What is John?"
+                        ],
+                        [
+                            "This book tells the story in which the \"walls came tumbling down\"",
+                            "What is Joshua?"
+                        ],
+                        [
+                            "The last book in the Old Testament",
+                            "What is Malachi?"
+                        ],
+                        [
+                            "The book of the Bible that contains the famous quote \"What hath God wrought?\"",
+                            "What is Numbers?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "The Districts",
+                    "content": [
+                        [
+                            "The district from which Katniss Everdeen originates",
+                            "What is District 12?"
+                        ],
+                        [
+                            "The number of districts in Panem",
+                            "What is 13?"
+                        ],
+                        [
+                            "The district from which Johanna Mason originates",
+                            "What is District 7?"
+                        ],
+                        [
+                            "The district known for fishing",
+                            "What is District 4?"
+                        ],
+                        [
+                            "The district known for graphite mines",
+                            "What is District 13?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Flowers",
+                    "content": [
+                        [
+                            "The word that fills in the blank: A ______ by any other name would smell as sweet",
+                            "What is \"rose\"?"
+                        ],
+                        [
+                            "The type of flower given by the Dutch to Canada after the Second World War",
+                            "What is the tulip?"
+                        ],
+                        [
+                            "This flower is an invasive species brought to North America that can be used to make a fermented beverage.",
+                            "What is the dandelion?"
+                        ],
+                        [
+                            "This country is the biggest exporter of flowers in Africa",
+                            "What is Kenya?"
+                        ],
+                        [
+                            "The country in which the oldest fossilized flowering plant (angiosperm) was found",
+                            "What is China?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Easter",
+                    "content": [
+                        [
+                            "The number of days in the Easter season",
+                            "What is 50?"
+                        ],
+                        [
+                            "The location to which two disciples of Jesus were travelling on Easter Sunday",
+                            "What is Emmaus?"
+                        ],
+                        [
+                            "The last of the Eleven to see the risen Jesus",
+                            "Who is Thomas?"
+                        ],
+                        [
+                            "The day on which the annual White House Easter Egg Roll is hosted",
+                            "What is Easter Monday?"
+                        ],
+                        [
+                            "The date on which Orthodox Christians celebrate Easter in 2022",
+                            "What is April 24?"
+                        ]
+                    ]
+                }
+            ]
+        },
+        {
+            "categories": [
+                {
+                    "name": "The Hobbit (Book)",
+                    "content": [
+                        [
+                            "The number of dwarves who accompany Bilbo to the Lonely Mountain",
+                            "What is 13?"
+                        ],
+                        [
+                            "The dwarf who falls asleep after he falls in a river",
+                            "Who is Bombur?"
+                        ],
+                        [
+                            "The number of dwarves who survive the Battle of the Five Armies",
+                            "What is 10?"
+                        ],
+                        [
+                            "Gollum's first guess for the question \"What do I have in my pocket?\"",
+                            "What is handses (hands)?"
+                        ],
+                        [
+                            "The Elvish name for the Lonely Mountain",
+                            "What is Erebor?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Countries",
+                    "content": [
+                        [
+                            "The only country that borders Vatican City",
+                            "What is Italy?"
+                        ],
+                        [
+                            "The only country that is also a continent",
+                            "What is Australia?"
+                        ],
+                        [
+                            "The most densely populated country",
+                            "What is Monaco?"
+                        ],
+                        [
+                            "The country with the largest known oil reserves",
+                            "What is Venezuela?"
+                        ],
+                        [
+                            "This country's capital has the coldest average temperature of any capital city in the world",
+                            "What is Mongolia?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Minecraft",
+                    "content": [
+                        [
+                            "The mob that can be bred with carrots",
+                            "What is a pig?"
+                        ],
+                        [
+                            "The female player character in Minecraft",
+                            "Who is Alex?"
+                        ],
+                        [
+                            "The mob which spawns when a creeper is struck by lightning",
+                            "What is a charged creeper?"
+                        ],
+                        [
+                            "The direction in which the sun sets in Minecraft",
+                            "What is west?"
+                        ],
+                        [
+                            "The light level of a redstone torch",
+                            "What is 7?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Ottawa (Ontario)",
+                    "content": [
+                        [
+                            "The name of the canal in Ottawa on which people can skate in winter months",
+                            "What is the Rideau Canal?"
+                        ],
+                        [
+                            "The original name of Ottawa",
+                            "What is Bytown?"
+                        ],
+                        [
+                            "The address of the official residence of the Prime Minister (not where they actually live)",
+                            "What is 24 Sussex Drive?"
+                        ],
+                        [
+                            "The monarch who chose Ottawa as the capital of Canada",
+                            "Who is Queen Victoria?"
+                        ],
+                        [
+                            "The name of Ottawa's CFL team",
+                            "What is the Ottawa Redblacks?"
+                        ]
+                    ]
+                },
+                {
+                    "name": "Mathematical Trivia",
+                    "content": [
+                        [
+                            "Pythagoras is known for this famous theorem about right triangles",
+                            "What is the Pythagorean Theorem?"
+                        ],
+                        [
+                            "The irrational constant relating the diameter of a circle to its circumference",
+                            "What is Pi?"
+                        ],
+                        [
+                            "The inventors of calculus (either one)",
+                            "Who is (Isaac) Newton OR Who is (Gottfried) Leibniz?"
+                        ],
+                        [
+                            "His book \"Elements\" earned him the title \"Father of Geometry\"",
+                            "Who is Euclid?"
+                        ],
+                        [
+                            "Among the equations named after this famous mathematician are V - E + F = 2 and e^(i*π) + 1 = 0",
+                            "Who is (Leonhard) Euler?"
+                        ]
+                    ]
+                }
+            ]
+        }
+    ]
+}

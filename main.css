@@ -1,0 +1,258 @@
+body {
+    margin: 0;
+    background-color: #2a3698;
+    display: flex;
+    flex-direction: column;
+}
+
+#tableDiv {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    width: 94vw;
+    margin: auto;
+}
+
+#teamsDiv {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100vw;
+    justify-content: center;
+}
+
+#proDiv {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+#scoresDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.scoreDiv, #proDiv, .playerDiv {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 20px;
+    cursor: pointer;
+}
+
+#scoreScreenDiv, #finalJeopardyDiv, .questionDiv, .wagerDiv, .doubleDiv {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    z-index: 0;
+    background-color: #2a3698;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    font-size: 40px;
+    color: white;
+}
+.teamSpan {
+    border: 2px solid #00000000;
+}
+
+.wagerDiv div, .doubleDiv div {
+    margin: 3vh 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+.doubleDiv div {
+    min-width: 50%;
+}
+.wagerAmountDiv {
+    min-width: 40%;
+}
+.positiveNegativeDiv {
+    min-width: 20%;
+}
+.positiveNegativeDiv span {
+    padding: 0 5vw;
+}
+
+.wagerDiv span, .doubleDiv span {
+    margin: 3vh 0;
+}
+.doubleDiv div span {
+    margin: 3vh 2vw;
+    padding: 10px;
+}
+
+#scoreScreenDiv span, #finalJeopardyDiv span {
+    margin: 3vh 5vw;
+}
+
+.connected {
+    background-color: rgb(14, 168, 14);
+}
+.disconnected {
+    background-color: lightgrey;
+}
+
+#playersDiv {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+#questionSpan, #answererSpan, #answerSpan {
+    padding: 5vh 5vw;
+    opacity: 1;
+    text-align: center;
+}
+
+#answerSpan {
+    transition: opacity 1s;
+}
+
+.invisible {
+    visibility: hidden;
+    opacity: 0 !important;
+}
+
+.questionSeparator {
+    width: 100vw;
+    border-top: 3px dashed white;
+    border-bottom: 0;
+}
+
+.scoreDiv {
+    align-items: center;
+    background-color: white;
+}
+
+.controlsDiv {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    border: 2px solid white;
+}
+
+.positive {
+    margin-right: 6px;
+    cursor: pointer;
+    color: green;
+    user-select: none;
+}
+
+.negative {
+    margin-left: 6px;
+    cursor: pointer;
+    color: red;
+    user-select: none;
+}
+
+.scoreTitle {
+    font-size: 16px;
+}
+
+.scoreSpan {
+    font-size: 14px;
+}
+
+.rowDiv {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.answerRowDiv {
+    display: flex;
+    flex-direction: column;
+    border: 4px solid black;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    height: 70vh;
+    justify-content: space-evenly;
+}
+
+.gold {
+    background-color: #ffd900;
+}
+.silver {
+    background-color: silver;
+}
+.bronze {
+    background-color: brown;
+}
+.playerScoreDiv {
+    border-radius: 3px;
+    padding: 10px;
+    min-width: 50%;
+}
+
+.category {
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    padding: 5px 5px;
+    font-size: 30px;
+}
+
+.rectangle {
+    border: 4px solid black;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.fadedDiv {
+    background-color: #00000055;
+}
+
+.fadedSpan {
+    color: #80808080 !important;
+}
+
+.active {
+    border-color: grey;
+}
+
+.selected {
+    border: 2px solid grey;
+}
+
+.pointsSpan {
+    text-align: center;
+    color: white;
+    font-size: 3vw;
+}
+
+#title {
+    color: white;
+    font-size: 4vw;
+    margin: 10px auto;
+}
+
+.right {
+    border-right-width: 4px;
+}
+.left {
+    border-left-width: 4px;
+}
+
+.correct {
+    background-color: rgb(36, 160, 36) !important;
+}
+.incorrect {
+    background-color: rgb(168, 36, 36) !important;
+}
