@@ -4,6 +4,8 @@ What is Jeopardy-js? Simply put, it's a Jeopardy-style web game using Joycon Con
 
 Jeopardy-js is a JavaScript implementation of the most famous quiz game of all time. The game uses a Nintendo Switch Pro Controller plus three regular JoyCons. The controllers are paired by Bluetooth to the hosting computer. The game incorporates a double-score round, Daily Doubles, and Final Jeopardy. 
 
+The questions for the game are stored in [jeopardy.json](jeopardy.json). Below, a sample board with questions from an Easter-themed jeopardy game are shown.
+
 <img width="960" alt="image" src="https://user-images.githubusercontent.com/37885174/176900927-494a440b-579e-4bf1-acdf-b63282e3dead.png">
 
 ### Instructions
